@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj": {}
+    "e:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj": {}
   },
   "projects": {
-    "E:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj": {
+    "e:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
+        "projectUniqueName": "e:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
         "projectName": "sampleDotnetProject",
-        "projectPath": "E:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
+        "projectPath": "e:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "E:\\workspace\\sampleDotnetProject\\obj\\",
+        "outputPath": "e:\\workspace\\sampleDotnetProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

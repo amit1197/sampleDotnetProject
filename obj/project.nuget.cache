@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5fmtYDpwiqf6w/ZfP70rfWuurJQ+m122hWldBEY74BpzY7MxjunW3PMVHHhW0sXwkPp2S42WmDUb3uqi6XBu7w==",
+  "dgSpecHash": "GR9jBDYO9MoKWWlbVPop2Pt7QxrBq0Ii6uu567hcyT2mleVvdaUPbJ3n/hO6QIkKCIx8OmcUbSJ9x1Lk9nC0jQ==",
   "success": true,
-  "projectFilePath": "E:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
+  "projectFilePath": "e:\\workspace\\sampleDotnetProject\\sampleDotnetProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
