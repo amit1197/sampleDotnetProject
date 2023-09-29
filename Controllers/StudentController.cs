@@ -21,14 +21,14 @@ public class StudentController : ControllerBase
     [HttpGet]
     public async Task<ActionResult<List<Student>>> GetAllStudents()
     {
-        return _studentService.GetAllStudents();
+        return await _studentService.GetAllStudents();
     }
 
     [HttpGet("{id}")]
     public async Task<ActionResult<Student>> GetSingleStudent(int id)
     {
         // var result = await _superHeroService.GetSingleHero(id);
-        var student = _studentService.GetSingleStudent(id);
+        var student =await _studentService.GetSingleStudent(id);
         if(student is null) 
         {
             return NotFound("student not found");
@@ -39,14 +39,14 @@ public class StudentController : ControllerBase
     [HttpPost]
     public async Task<ActionResult<List<Student>>> AddStudent(Student student)
     {
-        var res = _studentService.AddStudent(student);
+        var res =await _studentService.AddStudent(student);
         return Ok(res);
     }
 
     [HttpPut("{id}")]
     public async Task<ActionResult<List<Student>>> UpdateStudent(int id, Student request)
     {
-        var student = _studentService.UpdateStudent(id, request);
+        var student =await _studentService.UpdateStudent(id, request);
         if(student is null)
         {
             return NotFound("Student not found");
@@ -57,7 +57,7 @@ public class StudentController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<ActionResult<List<Student>>> DeleteStudent(int id)
     {
-        var student = _studentService.DeleteStudent(id);
+        var student =await _studentService.DeleteStudent(id);
         if(student is null)
         {
             return NotFound("Student not found");

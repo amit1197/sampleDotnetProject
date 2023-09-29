@@ -2,15 +2,15 @@ namespace sampleDotnetProject.Services.StudentService
 {
     public interface IStudentService
     {
-        List<Student> GetAllStudents();
+        Task<List<Student>> GetAllStudents();
 
-        Student? GetSingleStudent(int id);
+        Task<Student?> GetSingleStudent(int id);
 
-        List<Student> AddStudent(Student student);
+        Task<List<Student>> AddStudent(Student student);
 
-        List<Student>? UpdateStudent(int id, Student request);
+        Task<List<Student>?> UpdateStudent(int id, Student request);
 
-        List<Student>? DeleteStudent(int id);
+        Task<List<Student>?> DeleteStudent(int id);
 
 
 

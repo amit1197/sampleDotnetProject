@@ -5,13 +5,15 @@ using System.Data;
 using System.Data.SqlClient;
 using CsvHelper;
 using CsvHelper.Configuration;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace sampleDotnetProject.Models;
 
 public class Student {
-
-    public int Student_ID {get; set;}
+    
+    [Key]
+    public int StudentId {get; set;}
     public string Gender {get; set;} = string.Empty;
     public int Marks {get; set;}
 }

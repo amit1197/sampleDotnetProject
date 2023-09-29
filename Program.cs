@@ -1,4 +1,5 @@
 global using sampleDotnetProject.Models;
+global using sampleDotnetProject.Data;
 using sampleDotnetProject.Services.StudentService;
 
 
@@ -12,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IStudentService, StudentService>();
+builder.Services.AddDbContext<DataContext>();
 
 var app = builder.Build();
 
